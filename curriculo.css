@@ -1,0 +1,28 @@
+.pagina{
+    background-color: white;
+}
+
+.bloco_horizontal{
+    width: 1550px;
+    height: 250px;
+    background-color:rgb(113, 129, 138);
+}
+
+.bloco_vertical{
+    
+    margin-left: 50px;
+    margin-right: -20px;
+   
+
+    width: 300px;
+    height: 1000px ;
+    background-color:#404040;
+}
+
+.foto{
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50% ;
+}
