@@ -5,29 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='curriculo.css'>
-    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+
+    <title>Curriculo</title>
 </head>
 <body>
+   
+   
     <div class="pagina">
-        
-        <div class="bloco_horizontal">
-            <p>João Carlos</p>
-        </div>
 
-        <div class="bloco_vertical">
-            <div>
-                <img class="foto" src="data:image/jpeg;base64,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">
-                <p>email@unidavi.edu.br</p>
-                <p>999992222</p>
-                <p>rio do sul</p>
-                <p>formação academica</p>
-            </div>
+        <div class="bloco_horizontal">
+            <p class="nome">João Carlos</p>
+                
+            <div class="bloco_vertical">
+                <img class="foto" src="foto.svg" alt="foto">
+                <div class="p_v">
+                    <img class="icone" src="email.svg" alt="email">
+                    <p>email@unidavi.edu.br</p><br>
+                    <img class="icone" src="whats.svg" alt="telefone">
+                    <p>+55 47 999992222</p><br>
+                    <img class="icone" src="endereco.svg" alt="endereco">
+                    <p>Rio do Sul</p><br>
+                    <img class="icone" src="academico.svg" alt="simbolo">
+                    <p>Formação Academica</p>
+                    <p class="texto_v">
+                        Bacharelado: Engenharia de Software 
+                        <br>UDESC-Universidede do Estado de Santa Catarina
+                    </p>
+                </div>
+            </div>   
+                    
+           
         </div>
 
         <div class="centro">
-            <p>resumo profissional</p>
-            <p>historico profissional</p>
-            <p>competencias</p>
+            <p class="titulo">Resumo Profissional</p>
+                <p class="texto">
+                    Competente com desenvolvimento de projetos de softwares, levantamentos de requisitos, regras de negocio,
+                    analise e estimativas de desenvolvimento para a entrega.
+                </p>
+
+            <p class="titulo">Historico Profissional</p>
+
+            <p class="texto">
+                2012-2017 desenvolvimento softwares.<br>
+                2017-2021 desenvolvimento web.      
+            </p>
+
+            <p class="titulo">Competencias</p>
+
+            <ul class="texto">
+                <li>Trabalho em equipe</li>
+                <li>Espirito de liderança</li>
+                <li>compromissado</li>
+            </ul>
         </div>
 
     </div>
