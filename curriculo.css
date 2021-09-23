@@ -1,3 +1,9 @@
+body{
+    margin: 0%;
+    position: relative;
+    top: -50px;
+}
+
 .pagina{
     background-color: rgb(211, 229, 255);
     text-align: center;
@@ -71,4 +77,74 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,44,105,0.893995098
 
 .texto_v{
     font-size: 20px;
+}
+
+@media(min-width: 200px) {
+    .pagina{
+        height: 1800px ;
+    }
+
+    .bloco_vertical{
+        height: 1800px;
+    }
+}
+
+@media(min-width: 300px) {
+    .pagina{
+        height: 1700px ;
+    }
+
+    .bloco_vertical{
+        height: 1700px;
+    }
+}
+
+@media(min-width: 576px) {
+    .pagina{
+        height: 1600px ;
+    }
+
+    .bloco_vertical{
+        height: 1600px;
+    }
+}
+
+@media(min-width: 768px) {
+    .pagina{
+        height: 1500px ;
+    }
+
+    .bloco_vertical{
+        height: 1500px;
+    }
+}
+
+@media(min-width: 992px) {
+    .pagina{
+        height: 1400px ;
+    }
+
+    .bloco_vertical{
+        height: 1400px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .pagina{
+        height: 1200px ;
+    }
+
+    .bloco_vertical{
+        height: 1200px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .pagina{
+        height: 1100px ;
+    }
+
+    .bloco_vertical{
+        height: 1100px;
+    }
 }
